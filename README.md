@@ -23,7 +23,7 @@
     - Install without changing any options
     - Wait until installation finished
 
-- Jalankan terminal
+- Run the terminal
 
 #### **Linux user**
 - Download miniconda untuk Python 3.7
