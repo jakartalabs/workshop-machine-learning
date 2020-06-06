@@ -9,7 +9,7 @@ Learn the basic of Machine Learning and Deploy your own simple Natural Language 
 ### Step 1: Download Code
 - Click here to [Download as ZIP ](https://github.com/satriawadhipurusa/machine_learning_workshop/archive/master.zip)
 - Use git clone for those who are familiar  
-  `$ git clone https://github.com/WiraDKP/supervised_learning.git`
+  `$ git clone git@github.com:satriawadhipurusa/machine_learning_workshop.git`
 
 ### Step 2:  Miniconda Installation
 
