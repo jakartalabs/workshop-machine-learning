@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <title>Aplikasi Analisis Sentimen</title>
+    <link
+      rel="canonical"
+      href="https://getbootstrap.com/docs/4.0/examples/starter-template/"
+    />
+
+    <!-- Bootstrap core CSS -->
+    <link
+      href="{{ url_for('static', filename='css/bootstrap.min.css') }}"
+      rel="stylesheet"
+    />
+
+    <!-- Custom styles for this template -->
+    <link
+      href="{{ url_for('static', filename='css/starter-template.css') }}"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="starter-template">
+        <h1>Analisis Sentimen</h1>
+        <p class="lead">Masukkan kalimat yang akan dicek :</p>
+        <form action="" method="post">
+          <input
+            class="form-control mr-sm-2"
+            type="text"
+            name="kalimat"
+            placeholder="Kalimat"
+          />
+          <input
+            class="btn btn-outline-success my-2 my-sm-0"
+            name="submit"
+            type="submit"
+            value="submit"
+          />
+        </form>
+
+        {% if hasil_sentimen %}
+        <p>Sentimen {{hasil_sentimen}}</p>
+        {% endif %}
+      </div>
+    </div>
+    <!-- /.container -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script
+      src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
+      integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      window.jQuery ||
+        document.write(
+          '<script src="../../assets/js/vendor/jquery.min.js"><\/script>'
+        );
+    </script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+      integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+      crossorigin="anonymous"
+    ></script>
+    <script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
+  </body>
+</html>

@@ -1,5 +1,6 @@
 # macbook artifact
 .DS_Store
+.vs
 
 # notebook checkpoints
 .ipynb_checkpoints
