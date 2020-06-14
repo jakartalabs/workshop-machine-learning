@@ -9,52 +9,14 @@
     <meta name="description" content="" />
     <meta name="author" content="" />
 
-    <title>Aplikasi Analisis Sentimen</title>
+    <title></title>
     <link
       rel="canonical"
       href="https://getbootstrap.com/docs/4.0/examples/starter-template/"
     />
-
-    <!-- Bootstrap core CSS -->
-    <link
-      href="{{ url_for('static', filename='css/bootstrap.min.css') }}"
-      rel="stylesheet"
-    />
-
-    <!-- Custom styles for this template -->
-    <link
-      href="{{ url_for('static', filename='css/starter-template.css') }}"
-      rel="stylesheet"
-    />
   </head>
 
   <body>
-    <div class="container">
-      <div class="starter-template">
-        <h1>Analisis Sentimen</h1>
-        <p class="lead">Masukkan kalimat yang akan dicek :</p>
-        <form action="" method="post">
-          <input
-            class="form-control mr-sm-2"
-            type="text"
-            name="kalimat"
-            placeholder="Kalimat"
-          />
-          <input
-            class="btn btn-outline-success my-2 my-sm-0"
-            name="submit"
-            type="submit"
-            value="submit"
-          />
-        </form>
-
-        {% if hasil_sentimen %}
-        <p>Sentimen {{hasil_sentimen}}</p>
-        {% endif %}
-      </div>
-    </div>
-    <!-- /.container -->
-
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
@@ -74,6 +36,5 @@
       integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
       crossorigin="anonymous"
     ></script>
-    <script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
   </body>
 </html>
