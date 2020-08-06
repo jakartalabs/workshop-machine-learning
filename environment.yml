@@ -28,3 +28,4 @@ dependencies:
       - jcopml==1.1.7
       - luwiji==1.1.2
       - Flask-RESTful==0.3.8
+      - streamlit
