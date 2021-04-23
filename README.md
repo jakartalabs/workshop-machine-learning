@@ -7,9 +7,9 @@ Learn the basic of Machine Learning and Deploy your own simple Natural Language 
 ## Workshop Preparation
 
 ### Step 1: Download Code
-- Click here to [Download as ZIP ](https://github.com/satriawadhipurusa/machine_learning_workshop/archive/master.zip)
+- Click here to [Download as ZIP ](https://github.com/jakartalabs/machine-learning-workshop/archive/refs/heads/master.zip)
 - Use git clone for those who are familiar  
-  `$ git clone https://github.com/nplaybook/machine_learning_workshop.git`
+  `$ git clone https://github.com/jakartalabs/machine-learning-workshop`
 
 ### Step 2:  Miniconda Installation
 
